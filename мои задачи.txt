@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task List</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .task-category {
+            margin-top: 20px;
+        }
+        .task-category h2 {
+            background-color: #f0f0f0;
+            padding: 10px;
+        }
+        .task-list {
+            list-style: none;
+            padding: 0;
+        }
+        .task-list li {
+            display: flex;
+            align-items: center;
+            padding: 5px 0;
+        }
+        .task-list input[type="checkbox"] {
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Task List</h1>
+
+    <div class="task-category">
+        <h2>Важные задачи</h2>
+        <ul class="task-list">
+            <li><input type="checkbox"> Проверить почту от ATM</li>
+            <li><input type="checkbox"> Матрицы новых объектов - получить обратную связь от поставщиков до 25 числа</li>
+            <li><input type="checkbox"> Сформировать профиль поставщика</li>
+            <li><input type="checkbox"> Согласовать и начать бронировать тренинг на вторую половину апреля</li>
+            <li><input type="checkbox"> Подготовить презентацию и нарратив под новые KPI команды</li>
+            <li><input type="checkbox"> Подготовить ответ по распределению прибыли MILES</li>
+            <li><input type="checkbox"> Прислать список неликвида по KYB для распродажи</li>
+            <li><input type="checkbox"> Организовать процесс по возврату и вывозу нелика</li>
+            <li><input type="checkbox"> Скомпенсировать недоЗП Ковалёвой в марте</li>
+            <li><input type="checkbox"> Разобраться в вопросе графика поставок с поставщиками и накидать план действий</li>
+            <li><input type="checkbox"> Согласовать перелимит по такси и билету</li>
+            <li><input type="checkbox"> Структурировать и разгрести почтовый ящик</li>
+            <li><input type="checkbox"> Запустить задачу - ТЗ на дэшборд ценового анализа рынка</li>
+            <li><input type="checkbox"> Назначить встречу по кодам списания</li>
+            <li><input type="checkbox"> Отправить Тосол Синтезу наш вариант условий на 2024</li>
+        </ul>
+    </div>
+
+    <div class="task-category">
+        <h2>Задачи по проектам</h2>
+        <ul class="task-list">
+            <li><input type="checkbox"> Sidem – Алёна, ежедневный контроль</li>
+            <li><input type="checkbox"> KYB – Павлов: прогноз</li>
+            <li><input type="checkbox"> KYB – механизм сглаживания курсовых рисков</li>
+            <li><input type="checkbox"> DENSO – форсунки и датчики - топ продаж</li>
+            <li><input type="checkbox"> IDEMITSU – юр.вопрос получить комментарии от Витали</li>
+            <li><input type="checkbox"> BGA – анализ кейса после прогрузки в НСИ кроссов</li>
+            <li><input type="checkbox"> METELLI/GRAF – анализ кейса через супер-отчёт</li>
+            <li><input type="checkbox"> Продумать вопросы к ADR</li>
+            <li><input type="checkbox"> Грузовой проект: гант + Рожков</li>
+            <li><input type="checkbox"> Протокол встречи по бонусам с согласованием супер-цели</li>
+            <li><input type="checkbox"> Доработать презентацию для команды по роли</li>
+            <li><input type="checkbox"> Задача по формированию кейса по Mando на Катманов: прогноз оборота по товарным группам, асс-тная матрица</li>
+            <li><input type="checkbox"> Перевод ребят (задачи на перевод в ELMA)</li>
+        </ul>
+    </div>
+
+    <div class="task-category">
+        <h2>Организационные задачи</h2>
+        <ul class="task-list">
+            <li><input type="checkbox"> Проверить наличие протоколов в SRM</li>
+            <li><input type="checkbox"> Обеспечить наличие протоколов договорённостей подписанных поставщиком и положить в SRM</li>
+            <li><input type="checkbox"> Подать документы по командировке</li>
+            <li><input type="checkbox"> Разобраться с выплатами за прошлые командировки</li>
+            <li><input type="checkbox"> Провести встречи по проектам с SDMами</li>
+            <li><input type="checkbox"> Обновить файл поставщики</li>
+            <li><input type="checkbox"> Встретиться с финансами по функционалу связанному с оплатами</li>
+        </ul>
+    </div>
+
+    <div class="task-category">
+        <h2>Личные задачи</h2>
+        <ul class="task-list">
+            <li><input type="checkbox"> Сделать ксерокопии новых документов</li>
+            <li><input type="checkbox"> Переподписать договор об аренде квартиры</li>
+            <li><input type="checkbox"> Взять фактуры газ и вода</li>
+            <li><input type="checkbox"> Сделать ксерокопию нового паспорта</li>
+            <li><input type="checkbox"> Подготовить ксерокопии документов для выездов</li>
+            <li><input type="checkbox"> Спланировать семейный трип</li>
+        </ul>
+    </div>
+
+    <div class="task-category">
+        <h2>Задачи по обучению и развитию</h2>
+        <ul class="task-list">
+            <li><input type="checkbox"> Подготовить планы по улучшениям по поставщикам</li>
+            <li><input type="checkbox"> Прописать функционал KASа</li>
+            <li><input type="checkbox"> Прописать функционал SDMа</li>
+            <li><input type="checkbox"> Прописать маркеры по компетенциям для SDM и KAS</li>
+            <li><input type="checkbox"> Сформировать KPI для SDM и KAS</li>
+        </ul>
+    </div>
+
+    <div class="task-category">
+        <h2>Задачи по закупкам и логистике</h2>
+        <ul class="task-list">
+            <li><input type="checkbox"> Закрыть командировку в Казахстан</li>
+            <li><input type="checkbox"> Подготовить ТЗ по автоматизации ценовых срезов</li>
+            <li><input type="checkbox"> Провести встречу с командой и обсудить текущие вопросы</li>
+            <li><input type="checkbox"> Согласовать участие в проекте RDC с поставщиками</li>
+            <li><input type="checkbox"> Заполнить файл для Волчкевич по маркетингу</li>
+            <li><input type="checkbox"> Подборщик Gates - интегрироваться по API</li>
+            <li><input type="checkbox"> Сформировать метрики проекта (успешности проекта)</li>
+            <li><input type="checkbox"> Настроить ручные порог-заказы и управлять заказами</li>
+        </ul>
+    </div>
+
+    <script>
+        // JavaScript для сохранения состояния чекбоксов
+        document.querySelectorAll('.task-list input[type="checkbox"]').forEach(checkbox => {
+            checkbox.addEventListener('change', () => {
+                localStorage.setItem(checkbox.nextSibling.textContent, checkbox.checked);
+            });
+            checkbox.checked = localStorage.getItem(checkbox.nextSibling.textContent) === 'true';
+        });
+    </script>
+</body>
+</html>
